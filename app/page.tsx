@@ -1,9 +1,13 @@
+import { Footer } from "./components/footer";
+import { Landing } from "./components/landing";
+import Navbar from "./components/navbar";
 
 export default function Home() {
   return (
-    <div>
-    <p>  Bishoooo</p>
-    <div className="flex justify-center"> this is in center</div>
-    </div>
+      <div>
+        <Navbar />
+        <Landing />
+        <Footer />
+      </div>
   );
 }
